@@ -5,7 +5,7 @@ import { useForm } from "react-hook-form";
 import Cookies from "js-cookie";
 import { signIn } from "../../../services/userService";
 import { SignInSection } from "./SignInStyled";
-import { signInSchema } from "../../../schemas/signinSchema";
+import { signInSchema} from "../../../schemas/SignInSchema"
 import { ErrorSpan } from "../ModalStyled";
 
 export function SignIn({ onSuccess, onSwitchToSignUp }) {
