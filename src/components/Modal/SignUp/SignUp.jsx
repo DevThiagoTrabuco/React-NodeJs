@@ -4,8 +4,8 @@ import Cookies from "js-cookie";
 import { signUp } from "../../../services/userService";
 import { Input } from "../../Input/Input";
 import { Button } from "../../Button/Button";
-import { SignUpSection } from "../SignUp/SignUpStyled";
-import { signUpSchema } from "../../../schemas/signupSchema";
+import { SignUpSection } from "./SignUpStyled";
+import { signUpSchema } from "../../../schemas/signUpSchema.js";
 import { ErrorSpan } from "../ModalStyled";
 
 export function SignUp({ onSuccess, onSwitchToSignIn }) {
